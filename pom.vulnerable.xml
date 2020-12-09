@@ -26,10 +26,26 @@
 
     <dependencies>
 
+        <!-- has minor version 1.2.3 -->
+        <!-- has vulnerability CVE-2017-5929 -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.2.3</version>
+            <version>1.1.11</version>
+        </dependency>
+
+        <!-- has major version 4.1.12 (inentionally NOT in test scope) -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.2</version>
+        </dependency>
+
+        <!-- has GPL license -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.15</version>
         </dependency>
 
     </dependencies>
