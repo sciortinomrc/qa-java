@@ -26,6 +26,14 @@
 
     <dependencies>
 
+
+        <dependency>
+            <groupId>antlr</groupId>
+            <artifactId>antlr</artifactId>
+            <version>2.7.7</version>
+        </dependency>
+
+
         <!-- has minor version 1.2.3 -->
         <!-- has vulnerability CVE-2017-5929 -->
         <dependency>
