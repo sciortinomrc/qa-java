@@ -16,13 +16,20 @@
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
+    <licenses>
+        <license>
+            <name>The BSD License</name>
+            <url>https://raw.github.com/lviggiano/owner/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <dependencies>
 
-
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-            <version>1.2.3</version>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.6.1</version>
         </dependency>
 
     </dependencies>
