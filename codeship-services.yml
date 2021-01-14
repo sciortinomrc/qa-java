@@ -1,3 +1,4 @@
-services:
-  meterian-analysis:
-    build: .
+meterian-analysis:
+  build: 
+    dockerfile: Dockerfile
+  add_docker: true

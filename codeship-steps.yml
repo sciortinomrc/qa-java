@@ -1,7 +1,3 @@
-- name: download_script
-  service: meterian-analysis
-  command: wget https://raw.githubusercontent.com/MeterianHQ/meterian-scanner-docker/master/scripts/meterian-docker-ci
-
-- name: launch_meterian
+- name: launch_meterian_analysis
   service: meterian-analysis
   command: bash meterian-docker-ci
