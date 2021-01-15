@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM busybox:latest
 
 SHELL ["/bin/bash","-c"]
 
