@@ -2,9 +2,6 @@ FROM openjdk:8-jdk-buster
 
 RUN wget -q https://raw.githubusercontent.com/MeterianHQ/meterian-scanner-docker/master/scripts/meterian-docker-ci
 
-RUN apt-get update
-RUN apt-get install bash
-RUN which docker
-
+SHELL ["/bin/bash"]
 # CMD ["wget","bash"]
 COPY . .
