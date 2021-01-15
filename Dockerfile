@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-buster
+FROM jpetazzo/dind
 
 SHELL ["/bin/bash","-c"]
 
