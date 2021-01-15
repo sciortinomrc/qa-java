@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM busybox:latest
 
 RUN wget -q https://raw.githubusercontent.com/MeterianHQ/meterian-scanner-docker/master/scripts/meterian-docker-ci
 
