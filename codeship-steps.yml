@@ -1,3 +1,5 @@
 - name: launch_meterian_analysis
   service: meterian
-  command: bash meterian-docker-ci
+  command: docker run --rm \
+            --volume ${PWD}:/workspace --env METERIAN_API_TOKEN=$METERIAN_API_TOKEN \
+            meterian/cli [Meterian CLI Options]
