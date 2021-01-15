@@ -1,8 +1,9 @@
-FROM openjdk:8-jdk-buster
+FROM ubuntu:bionic
 
 RUN wget -q https://raw.githubusercontent.com/MeterianHQ/meterian-scanner-docker/master/scripts/meterian-docker-ci
 
-RUN apt install docker.io
+RUN echo "LOL"
+RUN which apt-get
 
 # CMD ["wget","bash"]
 COPY . .
