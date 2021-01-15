@@ -2,3 +2,5 @@ meterian:
   build: 
     image: meterian-scanner
     dockerfile: Dockerfile
+  environment:
+    METERIAN_API_TOKEN: 09d0d65e-392e-46cb-b3b9-dc23c2d18510
