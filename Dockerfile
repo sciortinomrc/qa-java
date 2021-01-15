@@ -1,4 +1,5 @@
-FROM docker:18.09.7-dind
+FROM docker:stable
+
 WORKDIR .
 # CMD ["wget","bash"]
 COPY . .
