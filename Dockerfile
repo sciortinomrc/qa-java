@@ -1,11 +1,8 @@
-FROM busybox:latest
+FROM openjdk:8-jdk-buster
 
 SHELL ["/bin/bash","-c"]
 
 RUN wget -q https://raw.githubusercontent.com/MeterianHQ/meterian-scanner-docker/master/scripts/meterian-docker-ci
-
-RUN echo "LOL"
-RUN which apt-get
 
 # CMD ["wget","bash"]
 COPY . .
