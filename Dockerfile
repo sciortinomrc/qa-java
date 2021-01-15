@@ -1,3 +1,3 @@
-FROM jdocker run docker:19.03-dind
+FROM docker:19.03-dind
 # CMD ["wget","bash"]
 COPY . .
