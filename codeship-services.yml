@@ -1,4 +1,8 @@
-meterian-analysis:
-  build: 
-    dockerfile: Dockerfile
-  add_docker: true
+meterian:
+  build: .
+  environment:
+    ENV: my-var
+data:
+  image: busybox
+  volumes:
+    - ./tmp/data:/data
