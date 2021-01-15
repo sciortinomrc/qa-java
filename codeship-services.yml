@@ -1,4 +1,4 @@
 meterian-analysis:
   build: 
-    image: openjdk:8-jdk-buster
+    dockerfile: Dockerfile
   add_docker: true
